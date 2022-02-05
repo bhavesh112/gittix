@@ -18,8 +18,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/express": "^4.17.12",
+    "@bwtickets/common": "^1.0.13",
     "@types/cookie-session": "^2.0.44",
+    "@types/express": "^4.17.12",
     "@types/jsonwebtoken": "^8.5.6",
     "cookie-session": "^2.0.0",
     "express": "^4.17.1",
