@@ -1,6 +1,6 @@
 {
-  "name": "common",
-  "version": "1.0.2",
+  "name": "@tickets/common",
+  "version": "1.0.0",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -21,7 +21,7 @@
     "typescript": "^4.5.5"
   },
   "scripts": {
-    "clean": "del-cli  ./build/*",
+    "clean": "del-cli ./build/*",
     "build": "npm run clean && tsc",
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
   },
