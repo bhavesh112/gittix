@@ -33,12 +33,10 @@ Create JWT secret
 
 Tweak the `hosts` file
 
-- Windows 
-    - 
-    C:\Windows\System32\Drivers\etc\host
-- Mac
-    - 
-    /etc/hosts    
+- Windows  
+    >C:\Windows\System32\Drivers\etc\host
+- Mac 
+    >/etc/hosts    
 - Open the respective file
 - Add `127.0.0.1 ticketing.dev`in the file
 - This will allow ticketing.dev to act as `localhost`
