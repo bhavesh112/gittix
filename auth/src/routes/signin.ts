@@ -1,8 +1,8 @@
 import express, { Request, Response } from "express";
 import { body, validationResult } from "express-validator";
-import { BadRequestError } from "@bwtickets/common";
-import { RequestValidationError } from "@bwtickets/common";
-import { validateRequest } from "@bwtickets/common";
+import { BadRequestError } from "@bwtickets21/common";
+import { RequestValidationError } from "@bwtickets21/common";
+import { validateRequest } from "@bwtickets21/common";
 import { User } from "../models/user";
 import { Password } from "../services/password";
 import jwt from "jsonwebtoken";

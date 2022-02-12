@@ -7,8 +7,8 @@ import { currentUserRouter } from "./routes/current-user";
 import { signinRouter } from "./routes/signin";
 import { signoutRouter } from "./routes/signout";
 import { signupRouter } from "./routes/signup";
-import { errorHandler } from "@bwtickets/common";
-import { NotFoundError } from "@bwtickets/common";
+import { errorHandler } from "@bwtickets21/common";
+import { NotFoundError } from "@bwtickets21/common";
 
 const app = express();
 app.set("trust proxy", true);
